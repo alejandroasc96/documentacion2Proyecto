@@ -31,13 +31,13 @@ Gracias a este diagrama observamos que el administrador root una vez que inicia 
   
 
 ### Bases de Datos
-**![](https://lh4.googleusercontent.com/9AKZbfojCrQzNeS-vRHYW6ffZI0hTuoYsG037ke39TmztNMP6jnZSQ_PRqwakmBQKmoenn5R2H0age505aW-VF0ibf3QOFj7vBgB2tnHlaqZc6WQ4sbw2T9GBOiD0hu8wwBu9Avt)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/imgBasesDatos.png" width="500"> 
 ### API
 
- **![](https://lh4.googleusercontent.com/bbp_bCjcNjHUBcpCfog0W7q4XNDVhNMQ-V6mxzXsgynOz6bpvaISUufLv-5tEQVtB6b-20YjEBP5LRIegnzAQ5WSPPfeuRwMc_ZWqVrFHQmu_fFp8L2z7EYoc-XPJFb-DlOYZusj)**
+ <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/imgAPI.png" width="500"> 
 ### Vista
 
-**![](https://lh6.googleusercontent.com/ArEDe0NAVm-lV4_3jIDnxWAIF70UtXf_KCsX-RbUvgDfdpafVmS8Cd6ISyNBdrYtVnxc2UnyJPI03Y0aL7BgAziBTrijSA1MCWtwofMMJFhd7hGe6Fkxed0BLJ_hhVqwSsE77SFG)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/imgVista.png" width="500"> 
   
 
 ## Proyecto
@@ -48,7 +48,7 @@ Gracias a este diagrama observamos que el administrador root una vez que inicia 
 
 Visto el concepto de la aplicación pasamos el diseño de la misma. Primero transformaremos nuestro diagrama de caso de uso a un **diagrama de clase**.
 
-![](https://lh6.googleusercontent.com/MSprKT3_RvYIkrR2bltfBBfdKY3W13YgQN4TKg-3f6k4NPz0vSqFlfcKLrWpTQSc7GOcdA_-6q3_4xayjDkBczKDxqnCjgrgppxL1rTwGZRcX10hhQdgt3nO4O9ghomExjEuDds1)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/diagramaClases.png" width="500">
 
 En dicho diagrama observamos que poseemos una clase  llamada **Admin** donde se encuentran los dos tipos de administradores que hay en nuestro sistema (administrador root, administrador ) y los cuales se diferencian mediante el campo discriminator. De esta última podemos destacar que existe una relación de muchos a muchos con la clase Aplications. En otra instancia vemos que poseemos la clase **User** la cual posee una relación de muchos a muchos con la clase **Aplications** . De esta relación surge una nueva clase llamada **userAplication** la cual aparte de poseer las claves foráneas que hacen referencia a las clases también guarda el **deviceToken** campo que usaremos para el funcionamiento de nuestra API con Firebase, y **so** campo que hace referencia al sistema operativo del dispositivo.
 
@@ -56,7 +56,7 @@ En dicho diagrama observamos que poseemos una clase  llamada **Admin** donde se 
 
 Una vez obtenido el el diagrama de clases pasamos a trabajar con el **diagrama de Entidad/Relación** que nos dará un diseño con el que entenderemos mejor el diseño de nuestra base de datos.
 
-**![](https://lh4.googleusercontent.com/1jCrEDS6p3qyoFdGVOrzeIpSJfQEvQ4XEPMpYvWinansKWkKof6VXnoy4VMSaPkj6yqqqsIQYaWJgDKl2V2mSQOu8opgCaHQY7NPYS11nTYcSbS18mV-5ZVgo-uAFFnoBjPHHeFV)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/diagramaEntidadRelacion.png" width="500">
 Gracias a este diagrama nos damos cuenta del diseño que va a tener nuestra base de datos. Además nos permite ver aspectos tales como; cómo se van a tratar los diferentes campos, así mismo, vemos  se van a diferenciar el tipo de sistema operativo en la entidad userAplication mediante la variante enum, la nueva entidad que se crea de la relación de muchos a muchos entre Admin y Aplication etc.
 
   
@@ -72,7 +72,7 @@ Una vez documentado la estructura de nuestra base de datos procedemos a crearla.
 
 La estructura de nuestro árbol sería tal que así:
 
-![](https://lh4.googleusercontent.com/93cT2slHKKsDGp1OCKBEN17ikw4D3wUVoAnIssfB-YY8scoyq2o8MIIyNBJ3jijPiO33yWEiBvUNOzA75-zAxKV-aIngdPvmFdosxNCGDVygC99qi7nfPP00JrQDSvhXuaU_oEUW)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arbolBaseDatos.png" width="500">
 
 Luego pasaremos a las vistas de la estructuras de nuestras tablas
 
