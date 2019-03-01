@@ -80,29 +80,28 @@ Luego pasaremos a las vistas de la estructuras de nuestras tablas
 
 __Vista user__
 
-![](https://lh4.googleusercontent.com/m7FMvE9SQ96uyP35-WTaMXMalUnVFVjbhYEd15LOhJ6lGCKodLUZstPxLE5JbDoo-haYEZKdDyduh3MbAUiIHnJi4h5-rCJe-tDWap4HlJcvIPspIJDjkqcGPz4_fppxy1UqJi6b)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaUserBaseDatos.png" width="500">
 
   
 
 __Vista application__
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaApplicationBasesDatos.png" width="500">
 
-![](https://lh4.googleusercontent.com/Huj2HVjdRjeHhlshCvlpgryI8rtKzxMsVRQBrtbNyLoze0tuOAmWN_jTqx5_h8XYP-jtJK3GiOW2vS1i03a46yyuf5-8uOpfvxkrAhRgqYFvCWDKXD8Q6x3ES0FzT3tfzrPV7hpv)
 
   
 
 __Vista userAplication__
-
-![](https://lh6.googleusercontent.com/T383V7CwBrsq7-75g9KqlsHXAXctuwANerixA_ythLvFp0eX1Q_sKu044Hu54X4w_fTrZgwT4d7DzydOKYuT3WNakZO5JgkQaRJLZXAvXMe-G0WKY8TZQIMbY9KFWkbdKfR40_Ad)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaUserApplicationBasesDatos.png" width="500">
 
 __Vista Admin__
 
-![](https://lh4.googleusercontent.com/1-KOJg4d6xMnCqNUUxDC4pDR1ZtlY3SnfzK-f9RBY-Hq1sSbEyA8rzKim4rw2y3Dgll8pz_cBj_lsgn5dsdsxGm9p0YwFN0gg-WjCVwb0BjRGJwfnT7k3G4XeZvW-fxrChz_MbEP)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaAdmin.png" width="500">
 
   
 
 __Vista adminAplicaton__
 
-![](https://lh4.googleusercontent.com/gyg2sEvhkOl1d8WA2Q6RpaOqkBylrWfCQks40nAY-jDzwkuzwgo2Gtz2J67qzCeC6CiCwKuGTDQ0ml1NNLV6oLYBJH9ezm-3DKc-DmT2b02QMYojoCPVzuB718xotwOZ20L1l2cb)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaAdminApplication.png" width="500">
 
   
   
@@ -110,7 +109,7 @@ __Vista adminAplicaton__
 
 __Vista de las relaciones__
 
-![](https://lh6.googleusercontent.com/-dEZEbXnhABrpstDg7sIgRaV0GU1WsSoccpdcXU9zuiXVgY2zCowApMgiVLCp65D-iJTxygM-D0mjb-x9tM4IuIt_VUfNDgL6---7gH2ULI_ZIFewj9vn-oa0bVBAkKKRle0Jbot)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaRelacionesBasesDatos.png" width="500">
 
 
 
@@ -134,8 +133,7 @@ Como en todo sistema que se precie, se diseñan rutas para los usuarios. En este
 
 #### Primer paso : Login
 
-![](https://lh5.googleusercontent.com/MAY1zLX7-Xu-t-ZxRc794osYdfNsQbfo2KfKcHLy2dRdd3MjIhpQUMcHrvoyK4MaSvomuZpfyuUhyWMlhAbq7wCREMXRmmzFpkUQtVmgnb78aDYLZMzxlO3G0mR6t_QIn7HeewsZ)
-
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/mockupsLogin.png" width="500">
   
 
 Esta es la vista de login a la que acceden solo los administradores para gestionar ciertas acciones de nuestro sistema por lo tanto tendrán que acreditarse mediante un login con el uso de su e-mail y contraseñas registradas en el sistema.
@@ -144,52 +142,55 @@ Esta es la vista de login a la que acceden solo los administradores para gestion
   
 
 #### Segundo paso : Panel Home
-**![](https://lh4.googleusercontent.com/TDXH4PuVFMGu_39HVe-m-TPXNb-Sr1eG9zq4M_ucTTGjVzDcAjB8Vbcjz4CzfKsNQKmFB9STbLNbyLJWUBvAQeYol5VJNdj8j-oydEtvwAOWQsJKpLVOT4WTVNm_phj6In3tA9Z-)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/mockupsHome.png" width="500">
 
 Una vez hecho el login el administrador accede al panel inicial donde podrá elegir las acciones que quiera ejecutar.
 
 #### Panel de Notificación
-**![](https://lh3.googleusercontent.com/MVXLzzmoNZ9UhfEpwyt0K-ykyWabTC1XtpPBAiPP-U51YfnUCOSS2n5OeMyxDTj2rCU3GfzYBi4pVsMovE1TEC_xGUbeFy-vbt34HcuCdEE-Wba3KXBVoRfuk1QQeOuYteT8I60I)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsNotificaciones.png" width="500">
 En el caso de querer crear una notificación el administrados al acceder al panel de notificación, se encontrará con un formulario a rellenar y una vez completado podrá efectuar el envío de la notificación.
 
 #### Panel aplicaciones
-**![](https://lh5.googleusercontent.com/Neb3FQ9_LMzIGsHhYIkVT6gc_1hR-q2xj-VmRWoKnwjh6454LotpxKqXw_Uc_jBipiB4F8dt4Gfjdhfj3Ub7nNB8QtGzNsx2zy0fpSBVuVCiUVJnMS2pnuXfp07JhIcEz2pBtQQx)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsAplicaciones.png" width="500">
 En el caso de entrar en el apartado de aplicaciones el administrador se encontrará con un panel donde le aparecerán todas las aplicaciones registradas las cuales podrá filtrar según sistema operativo o temática.
 
 #### Panel de Empleados
-**![](https://lh5.googleusercontent.com/wwUhwUfeQ-YbJI5CjJQq1EXJtbniFl1rZHRBoSpLu6eFBdd7KOQ8TD0yO6QSiHuSHvyQjgMcKdxiQaUPmc-5xxeFgY5mJdEHdm_60hUpUrEszOrmsRDsT3Qe12LRu0fvxrtAUAGJ)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsEmpleados.png" width="500">
 En el apartado de empleados el administrador root podrá gestionar todos los empleados que tiene registrados. Así mismo tendrá las opciones de crear nuevos usuarios eliminarlos etc.
 #### Panel de Users
 
-**![](https://lh5.googleusercontent.com/w6Rv5VnaPRGS8M_PiG9iWaHafPLSKxd8ehNFxKrUAZ0y37jaQAflXC-QEge3swmfr5klPajjlALZPYywuuw6-6xbyxDlgf69GC54oTYmXSKsjrDI7Vbyefnf1tiRqd6NihYiEoby)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsUsuarios.png" width="500">
 Luego el administrador puede también un listado de los usuarios que hay dentro de sus aplicaciones y realizar un CRUD manualmente si así lo desea.
 ## Relaciones dentro de NodeJs usando Sequelize
 
-![](https://lh3.googleusercontent.com/bDtA-fF-LU_8tZb4wlE-HvmX2yZ09hzVbLKUPWgoEy8bl14pTCpmpFyGVynFzJg3aRjcN9V55xxTej7iJUN2aeDDRGZW7HNCqY6Lyze_6iqxwDX7xm79fHgI4DJ2UZ2idO0Vz1HI)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/diagramaSequeLize.jpeg" width="500">
 
 ## Descripción del código de la API.
 
 
 En cuanto al documento index.js :
 
-![](https://lh3.googleusercontent.com/DG2ne3NtGPvEXWdquhA78bk9jIQ0_o5MDhXVmSSQOuBhTdX-iNNNSYi54LbI6-_gzYWjoOMBDPB5oNbdqFBe6vnVN0TpWjXgbQrAYguq4ZdzlXko_sQcoJWrZ8rQYNF00T3hs8UZ)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/index.png" width="500">
+
 En este caso utilizamos consign para cargar los archivos necesarios para poder arrancar el servidor con todo lo que necesite.
 
 El primer archivo en cargarse es config.js:
 
-![](https://lh6.googleusercontent.com/ZHyPgxtmeNHVXvQt5Sm_r0gvoyPcank9Yn0-GFMDY1FIuV1rV8S5gy5MxwTpye0iMdNeBvDThJkX9bfYHmkqUqnIe7sErLE9ROoLUdtb9M9b5VtVEPEHUcmeKbEaAIXWrmhOMTic)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/config.png" width="500">
+
 En este caso definimos la configuración necesaria para que sequelize pueda conectarse a la base de datos.
 
 En segundo lugar cargamos el archivo db.js:
 
-![](https://lh5.googleusercontent.com/ajUHglti82mbO71MmUgsXD59d41SU9ZEnNT63kH2lrnLKsFK9REu00shpb3nqFkfb0mUbo_f3wF0ZTtmHElmwwYwC3xJ7uSQ0bAW4HA_FfrHF3PzcOdl7t-0B3bXgvc_SBScUjwf)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/db.png" width="500">
+
 Aquí es donde realizamos la conección a la base de datos utilizando sequelize. En la línea 8 se se crea una instancia de sequelize con la configuración importada, la propia librería de Sequelize e inicializo un json que contendrá los modelos.
 
 Más adelante en la línea 21 recorro los archivos de todos los modelos y los asocio con sequelize introduciendolos en el json models. Tras cargar todos los modelos ejecuto los métodos que establecerán las asociaciones entre los modelos(línea 28).
 
 Este es un ejemplo de mapeo de la tabla ‘aplications’ con Sequelize.
 
-![](https://lh4.googleusercontent.com/W7dUKC_PwVAwkZfq05JaTR0ezeN_drfK1mlCpGRdBXZRKISJG4O4jyMWLFj9Snpg85PNwnxytUtK-TnxD4cPYKdwmfCYhUfuWX8JT_Aa05_S9VNm5bEk6hT7kxdMRSuqz9L02XUr)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/Sequelize.png" width="500">
 
 De esta manera en la línea 4 especificamos el nombre de la tabla dentro de la base de datos a la que hará referencia el modelo. Más adelante, defino las columnas de la tabla, especificando sus características como su tipo de dato (líneas 7,11 y 15) o validaciones necesarias (líneas 13 y 18).
 
@@ -197,41 +198,47 @@ Por último están las asociaciones, en esta caso las aplicaciones se relacionar
 
 El siguiente archivo que se va a cargar serán los middlewere:
 
-![](https://lh5.googleusercontent.com/lIu9obwJTOwZCia3CSxDL8ccghdhFiCCV2UaMQpNn0nGU41CLCCTW5qd1JQdS8B65X7MXexxYzwvNHorrojYDaLHZCddtFfVwuYWgOwSuQS0YvWudDnxcN7ZzmHM1Y_Ix0qtn0rk)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/middlewere.png" width="500">
 
 Luego vienen las rutas, como ejemplo usaremos una ruta de las aplicaciones.
 
-![](https://lh6.googleusercontent.com/SwJuxPD7JlC6NYzsU6sdM0YuTbdRSCoU6Vkec6lZzkso6K9wRlrwanzlKTNSS-Zd3TeJAJIvR9sWyD5kQNB68mFBLqegywLonXBchtFBoTDtTNDijn_yQz07kL97_8K02nlbS0j2)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/rutaAplicaciones.png" width="500">
 
 En este caso importo en la variable Apps el modelo de aplicaciones, en la línea 5 defino la ruta con la que se hará la petición al servidor y más adelante ejecuto el método del modelo de sequelize para realizar la búsqueda dentro de la base de datos.
 
 Este es un ejemplo donde, además de mostrar las aplicaciones de la base de datos, se muestran los usuarios de esa aplicación:
 
-![](https://lh6.googleusercontent.com/QgWaIaSY55bG8Ve9MZxB6AEARjVUK4jE-m_f-Co7JCyzbmjjdDBrnNR3S0nD0MP1tQi2WTDevdd6uNKx9KAvXQotJN7-zyO0Q6E3M3G9O1HkLhNwHuPs1W5wTS7hGBANAs_ISHOl)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/ejemploUsuariosAplicacion.png" width="500">
+
 En la línea 17 se incluye el modelo de usuarios para que se muestren también.
 
 Por último se arranca el servidor.
-![](https://lh4.googleusercontent.com/nAucfQ_kZMxlJ89qRxdAupSJquRcgoBlXaWXW93WOcUtIKmkZqw4sQveLSJ1O1HivFCOcv6m1D17qO7OPU8nxhIa0jCE4RKIAyacUJs2_2RnMTyBCmIpd6fMq2EfT0GzcdDH6-50)
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arrancandoServidor.png" width="500">
 
 ## Describiendo la implementación de la API REST.
 En el siguiente enlace se muestran las instrucciones de todas las rutas de todas las tablas: https://documenter.getpostman.com/view/6744581/S11GTLv6
 
 Como ejemplo utilizare las rutas del modelo usuarios:
 
-![](https://lh6.googleusercontent.com/xihAkOY1LLD4Z_09wfEqFBfAh-i87vKhPWrfKalIW9Gj42xfBDM7PAzOmvJHMfuxSQkP8b4ObC4Kjgc8SljQdH7proaSwwVQQPNJs5fPx4JiKjkIttrUcm4ZRI82Qmit28rT0KXV)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest.png" width="500">
+
 Esta ruta devolverá todos los usuarios dentro de la base de datos.
 
-![](https://lh6.googleusercontent.com/-P05FBeW9v_iYlSRv-kOFqBE_tMg6w8IWRH8YLfJO3YKNLMM-aUrv4k0DWw_vAmQTi1wJWwppMmxacD-SsedOAwMlPDMVwjqnNv2RQrZfDJwJKStdfLwIDeOgyXzRs3gB-VSAfqu)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest(1).png" width="500">
+
 Esta ruta devuelve un solo usuario usando su id, el pasado por parametro.
 
-![](https://lh6.googleusercontent.com/EYGP0kzB7zHK3Bm6S0dg73e4ihsV4rDWo5aEVnYHiPBAj9sT6wkE9wsgyP_fPJY28Sad77wicWVM-4M0pqjCsr-JhMHohs_9mCmufakVdMM042lL5iPvgSL-r887Or4Gk96mVnA7)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest(2).png" width="500">
+
 Este es el post que debe definir un json con los parámetros necesarios y pasarlos usando un body.
 
-![](https://lh4.googleusercontent.com/xoALpvr0A05Q2aa5wCA1dAUTXqjShVe1IMjKC223Jn4GPqQ4Dsm4wImfKAcHHnTwm2HIwCNK8rhpSfXobIx-BNNPv5okMtE5g-09Tqgu1_wBt6lL3Yfcy9uqTlSEE5gTjIZs_LeJ)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest(3).png" width="500">
 
 Este es el put, similar al post anteriormente visto, solo que en este caso hay ue indicarle la id del usuario que se quiere actualizar por parámetro en la ruta.
 
-![](https://lh6.googleusercontent.com/HGFS7kASZ4A4CZBOXogkVSx7zn6IS1Zw6_2jNPNffgA3Ct9GBOuljHHTyhuf-QwxDPz9IGLTmsoaDO4xz_eOsJ7HKLvZd6iXssnUi5yxJCbWkb7YXXJ98u7kz1FUqaehT2hFOCWr)
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest(4).png" width="500">
+
 Por último esta el delete, al que se le debe especificar la id del usuario que se deea borrar pasandola por parametro.
 
 # Manual de Usuario
@@ -239,26 +246,38 @@ Por último esta el delete, al que se le debe especificar la id del usuario que 
 La finalidad de este apartado es definir de cara al usuario como trabajar con la aplicación web.
 ## Paso 1 : Login
 Dado que solo podrán acceder a la página web los administradores que estén dados de alta en nuestro sistema el usuario deberá hacer el login adjuntando su e-mail y contraseña dados de alta.
-**![](https://lh5.googleusercontent.com/fjjD4Tyd1bmwr-DUE292dleSC1ajR1rE5yANEDWLfI27hzyJQh0oMzqOuUcM1XQgkFdGzMYym1hzodNOY1vLNmHx-wRMIxnc-d_fkqh5nAVLKUX588Ji3EFEsZx_howgysB5ioaB)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/login.png" width="500">
+
 Una vez introducido los datos el usuario deberá presionar sobre el botón de Login y será el propio sistema el encargado en primera estancia que los datos se ajustan a los parámetros establecidos y luego a realizar la autentificación.
 ## Paso 2 : Panel Home
 Una vez hecho el login el usuario se encontrará con un panel donde tiene disponible diferente tipos de acciones a realizar.
-**![](https://lh5.googleusercontent.com/jG7XS5HL6e3x63VTtIIBMizW4Q-8WQfhlDu97hpSwSuUtxlbpkfgZWhQyoHGIoyR7hoAyzAqwj6bxP_UJ9wnT2GzSNWrkwSlPofgL7OWKRqEzURVzfuki9cx5QSr3LlzfjFC7xVw)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/home.png" width="500">
+
 ## Paso 3 : Creando Notificación
 Para crear una notificación el usuario deberá seleccionar dentro de panel azul __*View Details*__ , dicho botón le llevará al formulario de la notificación el cuál deberá rellenar para realizar el envío de la notificación.
-**![](https://lh4.googleusercontent.com/AlvxHhONYA0T5rBGClqEorhDwuRAGYN_1i5pKPr4VpcK_tvHv59vUxsjCUSRNlxKwVjQm8FemZKEt2gIryTFH-4_wqYpi1tIaKQ7ozloFI8irUfeOk3Hm4LtWML5mY1ftWEB0ECH)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/notificacion.png" width="500">
+
 ## Paso 4 : Accediendo al panel Usuarios
 Para acceder al panel de  usuarios el administrador  deberá seleccionar dentro de panel Amarillo __*View Details*__ , dicho botón le permitirá  ver el listado de usuarios.
 
-**![](https://lh4.googleusercontent.com/IBoJOW1rB-quuu8AcQ1ILPWHv21bS_Q52cYP6fMeNZIppvZUsGBN6v0M3LVcI6F73SHpXSphRY6Xi8FEmQdVTj4Phs-prWvkGijPpva30kQ185WH-Ka_joU3ndOWmfN3eUkvE8Gg)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/home.png" width="500">
+
 ## Paso 5 : Administrando Clients
 Para acceder al panel de  clients el administrador  deberá seleccionar dentro de panel Verde __*View Details*__ , dicho botón le permitirá  ver el Panel de los clientes donde aparece el listado de los clientes registrado y las diferentes opciones para administrarlos (realizar un crud).
-**![](https://lh4.googleusercontent.com/OqnhOh-Bz-n83OVLJ-zwwWOD2YEqTCXVHTnjHc6HgGF0DmrYB_UDzSoc4QhPwhCIy7nCbyQS3BmHr20jr___Tx2NqeuZ7iTuSYVhvoqWQU-6seyaiSS72IkTPYQoxIawBbbkFVWA)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/home.png" width="500">
+
 ## Paso 6 : Administrando Aplicaciones
 Para acceder al panel de  aplications el administrador  deberá seleccionar dentro de panel Rojo __*View Details*__ , dicho botón le permitirá  ver el Panel de las aplicaciones donde aparece el listado de las aplicaciones registradas y las diferentes opciones para administrarlas (realizar un crud).
-**![](https://lh6.googleusercontent.com/qcFKnFRNqVZgAaYbP_MPt0fNeVKM-oMUW_Qkuve92BHj-_cemsLYlqI_mt5sXaNWuMcxm7ndbHs9AEmyG7TepZIgizsPvqrf-S9qButmg5_T8rw19Z5RQWp6lbnW6LtyxcnGr5i1)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/home.png" width="500">
+
 ## Paso 7 : Cerrar sesión
 Para salir de la sesión desde cualquier vista desde el navegador al pulsar sobre el icono de usuario nos dará la opción de Logout, al pulsar dicha opción de nos abrirá una ventana modal que nos preguntará si realmente queremos salir, si pulsamos salir; cerraremos dicha sesión.
+
 **![](https://lh6.googleusercontent.com/Ps58SQY_V2qbk_Gz2_guCIe7GxsuHUeheJ3-SOmP7pBxFbaTMVtKaiPQOX_ojOUfJCygnND-qhub4SF_ZDAgGv-lksipkw1iXa3rkVtS9hio8LsR7BdUvB3H8-REi3cd_Zx-Juoc)**
 **![](https://lh3.googleusercontent.com/S4pY1urGfLu-QRFt-MCLRYPYb9yUMx9_Fjg4XD1M18X4F1VufHlkRO2929ydtOpW8MhTGf_KFZa60QzHnyy3av8L8kxytIznTcref1VWLcBwasy-2KkXmOekLJ0JZKbgh0AD8jmb)**
 
