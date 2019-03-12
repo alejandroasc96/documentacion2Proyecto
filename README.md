@@ -219,7 +219,7 @@ En la línea 17 se incluye el modelo de usuarios para que se muestren también.
 
 Por último se arranca el servidor.
 
-<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arrancandoServidor.png" width="500">
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arrancandoServidor.PNG" width="500">
 
 ## Describiendo la implementación de la API REST.
 
