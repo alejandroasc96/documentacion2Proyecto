@@ -85,12 +85,14 @@ __Vista user__
   
 
 __Vista application__
+
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaApplicationBasesDatos.png" width="500">
 
 
   
 
 __Vista userAplication__
+
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaUserApplicationBasesDatos.png" width="500">
 
 __Vista Admin__
@@ -156,11 +158,14 @@ En el caso de entrar en el apartado de aplicaciones el administrador se encontra
 
 #### Panel de Empleados
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsEmpleados.png" width="500">
+
 En el apartado de empleados el administrador root podrá gestionar todos los empleados que tiene registrados. Así mismo tendrá las opciones de crear nuevos usuarios eliminarlos etc.
+
 #### Panel de Users
 
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsUsuarios.png" width="500">
 Luego el administrador puede también un listado de los usuarios que hay dentro de sus aplicaciones y realizar un CRUD manualmente si así lo desea.
+
 ## Relaciones dentro de NodeJs usando Sequelize
 
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/diagramaSequeLize.jpeg" width="500">
@@ -217,7 +222,10 @@ Por último se arranca el servidor.
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arrancandoServidor.png" width="500">
 
 ## Describiendo la implementación de la API REST.
-En el siguiente enlace se muestran las instrucciones de todas las rutas de todas las tablas: https://documenter.getpostman.com/view/6744581/S11GTLv6
+
+En el siguiente enlace se muestran las instrucciones de todas las rutas de todas las tablas:
+
+https://documenter.getpostman.com/view/6744581/S11GTLv6
 
 Como ejemplo utilizare las rutas del modelo usuarios:
 
@@ -242,7 +250,9 @@ Este es el put, similar al post anteriormente visto, solo que en este caso hay u
 Por último esta el delete, al que se le debe especificar la id del usuario que se deea borrar pasandola por parametro.
 
 # Manual de Usuario
+
 ## Descripción
+
 La finalidad de este apartado es definir de cara al usuario como trabajar con la aplicación web.
 ## Paso 1 : Login
 Dado que solo podrán acceder a la página web los administradores que estén dados de alta en nuestro sistema el usuario deberá hacer el login adjuntando su e-mail y contraseña dados de alta.
