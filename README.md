@@ -85,12 +85,14 @@ __Vista user__
   
 
 __Vista application__
+
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaApplicationBasesDatos.png" width="500">
 
 
   
 
 __Vista userAplication__
+
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/vistaUserApplicationBasesDatos.png" width="500">
 
 __Vista Admin__
@@ -156,11 +158,14 @@ En el caso de entrar en el apartado de aplicaciones el administrador se encontra
 
 #### Panel de Empleados
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsEmpleados.png" width="500">
+
 En el apartado de empleados el administrador root podrá gestionar todos los empleados que tiene registrados. Así mismo tendrá las opciones de crear nuevos usuarios eliminarlos etc.
+
 #### Panel de Users
 
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/MockupsUsuarios.png" width="500">
 Luego el administrador puede también un listado de los usuarios que hay dentro de sus aplicaciones y realizar un CRUD manualmente si así lo desea.
+
 ## Relaciones dentro de NodeJs usando Sequelize
 
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/diagramaSequeLize.jpeg" width="500">
@@ -217,7 +222,10 @@ Por último se arranca el servidor.
 <img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/arrancandoServidor.png" width="500">
 
 ## Describiendo la implementación de la API REST.
-En el siguiente enlace se muestran las instrucciones de todas las rutas de todas las tablas: https://documenter.getpostman.com/view/6744581/S11GTLv6
+
+En el siguiente enlace se muestran las instrucciones de todas las rutas de todas las tablas:
+
+https://documenter.getpostman.com/view/6744581/S11GTLv6
 
 Como ejemplo utilizare las rutas del modelo usuarios:
 
@@ -242,7 +250,9 @@ Este es el put, similar al post anteriormente visto, solo que en este caso hay u
 Por último esta el delete, al que se le debe especificar la id del usuario que se deea borrar pasandola por parametro.
 
 # Manual de Usuario
+
 ## Descripción
+
 La finalidad de este apartado es definir de cara al usuario como trabajar con la aplicación web.
 ## Paso 1 : Login
 Dado que solo podrán acceder a la página web los administradores que estén dados de alta en nuestro sistema el usuario deberá hacer el login adjuntando su e-mail y contraseña dados de alta.
@@ -278,8 +288,8 @@ Para acceder al panel de  aplications el administrador  deberá seleccionar dent
 ## Paso 7 : Cerrar sesión
 Para salir de la sesión desde cualquier vista desde el navegador al pulsar sobre el icono de usuario nos dará la opción de Logout, al pulsar dicha opción de nos abrirá una ventana modal que nos preguntará si realmente queremos salir, si pulsamos salir; cerraremos dicha sesión.
 
-**![](https://lh6.googleusercontent.com/Ps58SQY_V2qbk_Gz2_guCIe7GxsuHUeheJ3-SOmP7pBxFbaTMVtKaiPQOX_ojOUfJCygnND-qhub4SF_ZDAgGv-lksipkw1iXa3rkVtS9hio8LsR7BdUvB3H8-REi3cd_Zx-Juoc)**
-**![](https://lh3.googleusercontent.com/S4pY1urGfLu-QRFt-MCLRYPYb9yUMx9_Fjg4XD1M18X4F1VufHlkRO2929ydtOpW8MhTGf_KFZa60QzHnyy3av8L8kxytIznTcref1VWLcBwasy-2KkXmOekLJ0JZKbgh0AD8jmb)**
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/cerrarSesion1.png" width="500">
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/cerrarSesion2.png" width="500">
 
 # Describiendo el código de la  App Web.
 
@@ -330,7 +340,7 @@ Ventajas:
 
   
 
-Node.js es un entorno en tiempo de ejecución múltiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello). Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.![](https://lh5.googleusercontent.com/JxksZTXcs_7ufjlWHF7faYYDZLoZHNUVbsUKOssotgTv99-jjb80qutU24-Eeo9vYAxBbzBgnfrGnHAlSVMdQL08Mgj40R1YES4hdsRXAwlqAulNbxWn10-qpcpn9r6zh2r3N7go)
+Node.js es un entorno en tiempo de ejecución múltiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello). Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.
 
   
   
@@ -357,7 +367,12 @@ Los dos son viables en las áreas de ingeniería, aunque cada uno posee sus part
 Por otra parte, Node.js resuelve problemas de sincronización mucho más rápido porque trabaja sin hilos, es decir que no se vale de subprocesos para ejecutar una tarea sino que directamente apela a una única línea de trabajo: prioriza las tareas y las pone en cola. Perfecto para principiantes, sitios web dinámicos de empresas tecnológicas o de comunicación o aquellas que necesiten soportar miles de usuarios navegando al mismo tiempo.
 
 # Línea de Tiempo
-**![](https://lh5.googleusercontent.com/9nieicoxkfT3dO0iFLTDNrZ5rCyPZlTiFFeJ1i3l_HlfjTDVCIyory4Hy1bW6uVnBnGMkLltrmWRde696tvECDe3fFdKUppTEKP6MC2Cn1g2RV0E6njkQYxlSNc7sSF8ij5PUSu5)**
-**![](https://lh5.googleusercontent.com/LzZcd3M7lWG8Mh2oBe9ODO_LKdWcnikxXU2T3syZrCt4_mWSmRm76hJsMxkT-mPpFZZkhiSB0hAff27HhED8ysV54VOi9qjWKxrzkRgq1R1ahPFsFwvc4chsv1ZYdsoqeLA9jUOT)**
-**![](https://lh5.googleusercontent.com/F5qgN7kjSghN5RZD78Ailurj-gaF7zM4RZTyVo6jNZpq3_5zBJySfo3psC8xMFWlr3UHm1Qsj8EoYqWJEeVLsH_kgeOCqmjD6m13CPLTtqwVeCRl9nWwCyDmzdl3taH5m8TDq6Bj)**
-**![](https://lh6.googleusercontent.com/_wptWB128UmP0qjhSqz5MRrgVYSGtHdCJsScYjmngzkIMO2D-RKJnLOB7zjNg_hShucuomY16zLfFC-YhQdLZ-DPmXzQsgl1HoBm-mNMLx_NnnK6j21SrKCAEN-8lu--Yv-A_F9R)**
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/Línea de tiempo Pryecto.png" width="500">
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/Línea de tiempo Pryecto (1).png" width="500">
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/Línea de tiempo Pryecto (2).png" width="500">
+
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/Línea de tiempo Pryecto(3).png" width="500">
+
