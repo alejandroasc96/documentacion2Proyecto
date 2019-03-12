@@ -233,7 +233,7 @@ Como ejemplo utilizare las rutas del modelo usuarios:
 
 Esta ruta devolverá todos los usuarios dentro de la base de datos.
 
-<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/apiRest(1).png" width="500">
+<img src="https://raw.github.com/alejandroasc96/documentacion2Proyecto/master/imgDoc2Eva/getAUser.png" width="500">
 
 Esta ruta devuelve un solo usuario usando su id, el pasado por parametro.
 
